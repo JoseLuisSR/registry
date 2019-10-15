@@ -1,0 +1,7 @@
+*.iml
+.idea/
+target/
+.vagrant/
+repository/*
+!repository/server.properties
+dependency-reduced-pom.xml
