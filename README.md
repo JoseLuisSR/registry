@@ -17,4 +17,8 @@ Execute the below command on your local area to build and deploy virtual machine
 	
 It command takes install.sh file and execute all the commands that are inside it related to install docker engine, you can check those.
 
+## Docker file
+
+Docker file with all dependencies to build and deploy a microservice with springboot on container. Mapping ip address and port from host to container.
+
 In progress....

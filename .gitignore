@@ -3,5 +3,5 @@
 target/
 .vagrant/
 repository/*
-!repository/server.properties
+!repository/Dockerfile
 dependency-reduced-pom.xml
