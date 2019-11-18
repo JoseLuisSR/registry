@@ -4,8 +4,9 @@ Create microservices, service discovery with Eureka and docker containers to tes
 
 ## Microservices
 
-Customer is a microservice with capabilities to get and create (post) customer, it is very simply just to create many instants and
-register those on Eureka, also put it on a container and deploy it many times to check docker registry.
+Customer is a microservice with capabilities to getByKey and getAll customers records from MySQL Server database, it is using Spring Web RESTful
+& Spring Data JPA to expose web service and connect to MySql Server. The goal is create many instants of it and register these on Eureka, 
+also put it on a container and deploy it many times to check docker registry.
 
 ## Docker Engine Community Eddition
 
