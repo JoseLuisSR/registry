@@ -16,7 +16,9 @@ public class Customer {
 
     private Integer age;
 
-    private Integer identification_type;
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "identification_type", referencedColumnName = "id")
+    private IdentificationType identification_type;
 
     private String identification;
 
@@ -40,7 +42,7 @@ public class Customer {
         return identification;
     }
 
-    public Integer getIdentification_type(){
+    public IdentificationType getIdentification_type(){
         return identification_type;
     }
 
@@ -60,7 +62,7 @@ public class Customer {
         this.age = age;
     }
 
-    public void setIdentification_type(Integer identification_type) {
+    public void setIdentification_type(IdentificationType identification_type) {
         this.identification_type = identification_type;
     }
 
